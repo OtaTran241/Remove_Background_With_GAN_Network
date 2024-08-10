@@ -52,7 +52,7 @@ Binary Cross-Entropy (BCE) and L1 losses are used to guide the training of the d
   - Discriminator: 1e-5
 
 ## Inference
-For inference, you can load a pre-trained generator model and use it to remove backgrounds from new images. The resulting image is saved as a PNG.
+For inference, you can load a pre-trained generator model and use it to remove backgrounds from new images. The resulting image is saved as 4 chanels (RGBA).
 
 ## Usage
 
