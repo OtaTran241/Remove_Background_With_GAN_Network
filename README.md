@@ -79,4 +79,5 @@ predict_and_compare(test_loader, n_images=5)
 The model is capable of effectively removing backgrounds from input images, as demonstrated by the predictions compared against the ground truth.
 
 ## Contributing
-Contributions are welcome! If you have any ideas for improvements or new features, feel free to submit a pull request or open an issue.
+Contributions are welcome! If you have any ideas for improvements or new features, feel free to submit a pull request, open an issue or send an email to [tranducthuan220401@gmail.com](mailto:tranducthuan220401@gmail.com)
+
