@@ -79,9 +79,9 @@ Here, a SummaryWriter is initialized for TensorBoard logging. The variables star
         start_epoch = checkpoint['epoch'] + 1
         best_d_loss = checkpoint['best_d_loss']
         best_g_loss = checkpoint['best_g_loss']
-        print("Đã tải mô hình last và tiếp tục huấn luyện từ epoch", start_epoch)
+        print("Loaded the last model and continued training from epoch", start_epoch)
     else:
-        print("Không tìm thấy mô hình last, bắt đầu huấn luyện lại từ đầu")
+        print("Checkpoint not found, training from scratch")
 ```
 This block checks if a checkpoint file exists. If it does, it loads the saved model state, optimizers, and previous epoch details to resume training from where it was left off. If not, training starts from scratch.
 
